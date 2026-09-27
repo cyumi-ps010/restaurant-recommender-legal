@@ -54,9 +54,7 @@ Googleなどの外部事業者による記録・保持とは別です。
 ## 5. 実行基盤・公開サイト・外部リンク
 
 本アプリは画面表示にStreamlitを使用します。
-Streamlitの利用統計送信は実行環境の設定に依存します。
-詳細は[Streamlitの利用統計に関する説明](https://docs.streamlit.io/develop/concepts/configuration/options#telemetry)
-をご確認ください。
+本アプリでは、Streamlitへの利用統計の送信を無効にしています。
 
 本公開サイトはGitHub Pagesで配信します。
 GitHubは、ログインの有無にかかわらず、閲覧者のIPアドレスを
